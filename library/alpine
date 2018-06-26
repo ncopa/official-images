@@ -47,25 +47,46 @@ amd64-GitFetch: refs/heads/rootfs/library-3.7/x86_64
 amd64-GitCommit: 61c3181ad3127c5bedd098271ac05f49119c9915
 amd64-Directory: versions/library-3.7/x86_64
 
+Tags: 3.8
+Architectures: arm64v8, arm32v6, ppc64le, s390x, i386, amd64
+arm64v8-GitFetch: refs/heads/rootfs/library-3.8/aarch64
+arm64v8-GitCommit: 4ca826451948f5be43f118ff3f451f4e20b70453
+arm64v8-Directory: versions/library-3.8/aarch64
+arm32v6-GitFetch: refs/heads/rootfs/library-3.8/armhf
+arm32v6-GitCommit: a36f7676dda230fcf72ac27556e550eab5bd51d5
+arm32v6-Directory: versions/library-3.8/armhf
+ppc64le-GitFetch: refs/heads/rootfs/library-3.8/ppc64le
+ppc64le-GitCommit: f683293833a8a2730faab28530918db8955e65a3
+ppc64le-Directory: versions/library-3.8/ppc64le
+s390x-GitFetch: refs/heads/rootfs/library-3.8/s390x
+s390x-GitCommit: b952051ae4e08a3553a8034a3f8da19ad1348054
+s390x-Directory: versions/library-3.8/s390x
+i386-GitFetch: refs/heads/rootfs/library-3.8/x86
+i386-GitCommit: cac2db59f5dfcc65a75ec0c07591e7cd63d544a6
+i386-Directory: versions/library-3.8/x86
+amd64-GitFetch: refs/heads/rootfs/library-3.8/x86_64
+amd64-GitCommit: 1429632b3163b61d245c04cfcb15ced85f1bb821
+amd64-Directory: versions/library-3.8/x86_64
+
 Tags: edge
 Architectures: arm64v8, arm32v6, ppc64le, s390x, i386, amd64
 arm64v8-GitFetch: refs/heads/rootfs/library-edge/aarch64
-arm64v8-GitCommit: 7c8f868ed8d6137ceac5ca9537e7ff985210f9e9
+arm64v8-GitCommit: 31805653912cbb92d85b3198ff4a734ff4bdf64d
 arm64v8-Directory: versions/library-edge/aarch64
 arm32v6-GitFetch: refs/heads/rootfs/library-edge/armhf
-arm32v6-GitCommit: ea9cf5a12beae739c87900e513119af46f68a21b
+arm32v6-GitCommit: ec0cd70e390214e5cf7d8cf982906199e04529eb
 arm32v6-Directory: versions/library-edge/armhf
 ppc64le-GitFetch: refs/heads/rootfs/library-edge/ppc64le
-ppc64le-GitCommit: ee22e36c72fea7c953f5fa5b0dcf23de9ed32ef4
+ppc64le-GitCommit: 310b93d60f3a164c3db1cd3783980ef1f7ab15c8
 ppc64le-Directory: versions/library-edge/ppc64le
 s390x-GitFetch: refs/heads/rootfs/library-edge/s390x
-s390x-GitCommit: 1bf4ed0e831191b74ba7479efdb7231f75e00bd2
+s390x-GitCommit: cacb6c87fcfe838346ed63dcf80299dce2412834
 s390x-Directory: versions/library-edge/s390x
 i386-GitFetch: refs/heads/rootfs/library-edge/x86
-i386-GitCommit: 8f5fca108c4ee56095856b38aeab9b6e30ad10b4
+i386-GitCommit: 2719e6d7dd1d2e45fbdf1c81025b41b70b5f0045
 i386-Directory: versions/library-edge/x86
 amd64-GitFetch: refs/heads/rootfs/library-edge/x86_64
-amd64-GitCommit: edd30a358e57a880645e25a83e9d9bd79bff06f5
+amd64-GitCommit: 85417e20393c425c35268fbcc8304c0621ca7c2f
 amd64-Directory: versions/library-edge/x86_64
 
 Tags: 3.1
